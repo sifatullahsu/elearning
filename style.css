@@ -30,15 +30,27 @@
     font-size: 3rem;
 }
 
+.c-p-100 {
+    padding: 80px 100px;
+}
+
 @media (max-width: 1024px) {
     .c-h2 {
         font-size: 2rem;
+    }
+
+    .c-p-100 {
+        padding: 60px 100px;
     }
 }
 
 @media (max-width: 767px) {
     .c-h2 {
         font-size: 1.5rem;
+    }
+
+    .c-p-100 {
+        padding: 30px 15px;
     }
 
     .carousel-item img {
