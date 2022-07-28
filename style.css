@@ -26,19 +26,25 @@
     padding: 0 20px;
 }
 
-.carousel-caption h2 {
+.c-h2 {
     font-size: 3rem;
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .c-h2 {
+        font-size: 2rem;
+    }
+}
 
 @media (max-width: 767px) {
+    .c-h2 {
+        font-size: 1.5rem;
+    }
+
     .carousel-item img {
         height: 350px;
         object-fit: cover;
     }
 
-    .carousel-caption h2 {
-        font-size: 1.5rem;
-    }
+
 }
