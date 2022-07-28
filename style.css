@@ -39,6 +39,10 @@ body {
     padding: 80px 100px;
 }
 
+.bg-unset {
+    background: unset;
+}
+
 @media (max-width: 1024px) {
     .c-h2 {
         font-size: 30px;
