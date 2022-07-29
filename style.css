@@ -43,6 +43,10 @@ body {
     background: unset;
 }
 
+.c-icon-bg {
+    background-color: #242424;
+}
+
 @media (max-width: 1024px) {
     .c-h2 {
         font-size: 30px;
